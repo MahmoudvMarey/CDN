@@ -25,7 +25,7 @@ let breakpoints = {
   xl: 1280, // Extra large screens
 };
 
-let url = "https://xmdpbrdn-3000.uks1.devtunnels.ms/api/customize"; // Update with the correct endpoint URL
+let url = "https://master--v7v.netlify.app/api/customize"; // Update with the correct endpoint URL
 
 let requestOptions = {
   method: "GET",
