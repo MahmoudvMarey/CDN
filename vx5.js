@@ -1,3 +1,5 @@
+
+async function LoadChatCustomization() {
   const response = await fetch("https://www.virsay.com/api/customize", {
         method: "POST",
         headers: {
@@ -7,7 +9,7 @@
         
       }).then(r => r.json());
       console.log("R : ",response.result)
-
+}
 
   let iframe = document.createElement("iframe");
   iframe.src = `https://virsay.com/embed/org_01JAGJXKSYWYHWTXP4FZ0DBCPP`;
@@ -21,5 +23,7 @@
   iframe.style.borderRadius = "0.75rem"; // Equivalent to the specified border radius
   iframe.style.display = "block";
   iframe.style.zIndex = "999999";
+
+LoadChatCustomization()
 
   document.body.appendChild(iframe);
