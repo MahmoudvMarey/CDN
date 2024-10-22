@@ -96,7 +96,7 @@ function main() {
   iframe.style.height = "calc(100% - 8.25rem)";
   iframe.style.maxHeight = "675px";
   iframe.style.border = "none";
-  iframe.style.borderRadius = "0.75rem"; // Equivalent to the specified border radius
+  iframe.style.borderRadius = "1.30rem"; // Equivalent to the specified border radius
   iframe.style.display = "none"; // Initial hidden state
   iframe.style.zIndex = "999999";
 
