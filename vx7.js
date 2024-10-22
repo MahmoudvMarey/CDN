@@ -91,9 +91,9 @@ function main() {
   iframe.src = `https://www.virsay.com/embed/${id}`;
   iframe.style.position = "fixed";
   iframe.style[position] = "1rem"; // position value = "right"
-  iframe.style.bottom = "5.25rem"; // Equivalent to Tailwind's bottom-4
+  iframe.style.bottom = "8.25rem"; // Equivalent to Tailwind's bottom-4
   iframe.style.width = "382px"; // Equivalent to Tailwind's w-full
-  iframe.style.height = "calc(100% - 5.25rem)";
+  iframe.style.height = "calc(100% - 8.25rem)";
   iframe.style.maxHeight = "675px";
   iframe.style.border = "none";
   iframe.style.borderRadius = "0.75rem"; // Equivalent to the specified border radius
@@ -179,7 +179,7 @@ function main() {
       iframe.style.paddingLeft = "0px";
       iframe.style.paddingTop = "0px";
       iframe.style[position] = "1rem"; // Equivalent to Tailwind's right-4
-      iframe.style.bottom = "5.25rem"; // Equivalent to Tailwind's bottom-4
+      iframe.style.bottom = "8.25rem"; // Equivalent to Tailwind's bottom-4
       iframe.style.width = "382px"; // Equivalent to Tailwind's w-full
       iframe.style.maxHeight = "675px";
     }
