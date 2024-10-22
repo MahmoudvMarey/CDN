@@ -1,3 +1,12 @@
+  const response = await fetch("http://virsay/api/customize", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({organization_id:"org_01JAGJXKSYWYHWTXP4FZ0DBCPP"}),
+      }).then(r => r.json());
+      console.log("R : ",response.result)
+
   let iframe = document.createElement("iframe");
   iframe.src = `https://virsay.com/embed/org_01JAGJXKSYWYHWTXP4FZ0DBCPP`;
   iframe.style.position = "fixed";
