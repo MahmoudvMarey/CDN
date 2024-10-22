@@ -1,5 +1,3 @@
-function main() {
-
   let iframe = document.createElement("iframe");
   iframe.src = `https://virsay.com/embed/org_01JAGJXKSYWYHWTXP4FZ0DBCPP`;
   iframe.style.position = "fixed";
@@ -14,10 +12,3 @@ function main() {
   iframe.style.zIndex = "999999";
 
   document.body.appendChild(iframe);
-
-
-async function Load() {
-  main();
-}
-
-Load();
