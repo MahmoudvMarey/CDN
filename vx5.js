@@ -10,7 +10,7 @@ function main() {
   iframe.style.maxHeight = "675px";
   iframe.style.border = "none";
   iframe.style.borderRadius = "0.75rem"; // Equivalent to the specified border radius
-  // iframe.style.display = "none"; // Initial hidden state
+  iframe.style.display = "block";
   iframe.style.zIndex = "999999";
 
   document.body.appendChild(iframe);
